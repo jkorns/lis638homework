@@ -37,7 +37,7 @@ if ($change > 99) {
 	$number_nickels = (int)(($change - (($dollar * $number_dollars) + ($quarter * $number_quarters) + ($dime * $number_dimes)))/$nickel); 
 	echo $number_nickels;
 	echo " nickel(s), ";
-	# Calbulate the number of pennies in the remaining change
+	# Calculate the number of pennies in the remaining change
 	$number_pennies = (int) (($change - (($dollar * $number_dollars) + ($quarter * $number_quarters) + ($dime * $number_dimes) + ($nickel*$number_nickels)))/$penny);
 	echo $number_pennies;
 	echo " pennies.";
@@ -73,6 +73,5 @@ if ($bottles > 0) {
 		}
 	}
 ?>
-
 </body>
 </html>
