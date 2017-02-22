@@ -90,8 +90,8 @@ function coinToss ($NumberFlips) {
 	#Counter for Number of Coin Tosses
 	$CoinTossCount = 0;
 	#Heads and Tails of Coin Images
-	$heads = ("<img src='https://webdevdbcourses.prattsi.org/~jkorns/homework/images/brutus_heads.jpg' alt='heads' style='width:75px;'>");
-	$tails = ("<img src='https://webdevdbcourses.prattsi.org/~jkorns/homework/images/brutus_tails.jpg' alt='tails' style='width:75px;'>");
+	$heads = ("<img src='images/brutus_heads.jpg' alt='heads' style='width:75px;'>");
+	$tails = ("<img src='images/brutus_tails.jpg' alt='tails' style='width:75px;'>");
 	
 	#Loop for Coin Tosses
 	while ($HeadsCount < $NumberFlips) { 
